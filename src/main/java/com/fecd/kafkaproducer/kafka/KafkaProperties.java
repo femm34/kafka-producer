@@ -10,5 +10,5 @@ import org.springframework.stereotype.Component;
 @Setter
 public class KafkaProperties {
     @Value("${spring.kafka.bootstrap-servers}")
-    private static  String BOOTSTRAP_SERVERS;
+    private String bootstrapServers;
 }
